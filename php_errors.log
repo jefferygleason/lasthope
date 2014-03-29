@@ -1,0 +1,110 @@
+[28-Mar-2014 15:28:18 America/Chicago]  C:\xampp\htdocs\agile\atk4\lib/<b>ApiCLI.php</b>:267
+[Notice] Undefined property: Frontend::$url_object_count
+
+[28-Mar-2014 16:46:10 America/Chicago] PHP Fatal error:  Uncaught exception 'BaseException' with message 'Page may not contain periods (.)' in C:\xampp\htdocs\agile\atk4\lib\AbstractObject.php:545
+Stack trace:
+#0 C:\xampp\htdocs\agile\atk4\lib\PageManager.php(164): AbstractObject->exception('Page may not co...')
+#1 C:\xampp\htdocs\agile\atk4\lib\PageManager.php(85): PageManager->parseRequestedURL()
+#2 C:\xampp\htdocs\agile\atk4\lib\AbstractObject.php(306): PageManager->init()
+#3 C:\xampp\htdocs\agile\atk4\lib\ApiCLI.php(178): AbstractObject->add('PageManager', NULL)
+#4 C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php(40): ApiCLI->__construct('sample_project')
+#5 C:\xampp\htdocs\agile\index.php(14): ApiWeb->__construct('sample_project')
+#6 {main}
+  thrown in C:\xampp\htdocs\agile\atk4\lib\AbstractObject.php on line 545
+[28-Mar-2014 22:58:10 America/Chicago] PHP Fatal error:  Call to a member function dsql() on a non-object in C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php on line 115
+[28-Mar-2014 22:58:10 America/Chicago] PHP Stack trace:
+[28-Mar-2014 22:58:10 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\agile\index.php:0
+[28-Mar-2014 22:58:10 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\agile\index.php:15
+[28-Mar-2014 22:58:10 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:275
+[28-Mar-2014 22:58:10 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:39
+[28-Mar-2014 22:58:10 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:428
+[28-Mar-2014 22:58:10 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:130
+[28-Mar-2014 22:58:10 America/Chicago] PHP   7. page_admin->init() C:\xampp\htdocs\agile\atk4\lib\AbstractObject.php:306
+[28-Mar-2014 22:58:10 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\agile\page\admin.php:6
+[28-Mar-2014 22:58:10 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\agile\atk4\lib\View\CRUD.php:220
+[28-Mar-2014 22:58:10 America/Chicago] PHP  10. SQL_Model->_dsql() C:\xampp\htdocs\agile\atk4\lib\AbstractView.php:115
+[28-Mar-2014 22:58:10 America/Chicago] PHP  11. SQL_Model->initQuery() C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php:127
+[28-Mar-2014 22:58:55 America/Chicago] PHP Fatal error:  Call to a member function dsql() on a non-object in C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php on line 115
+[28-Mar-2014 22:58:55 America/Chicago] PHP Stack trace:
+[28-Mar-2014 22:58:55 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\agile\index.php:0
+[28-Mar-2014 22:58:55 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\agile\index.php:15
+[28-Mar-2014 22:58:55 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:275
+[28-Mar-2014 22:58:55 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:39
+[28-Mar-2014 22:58:55 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:428
+[28-Mar-2014 22:58:55 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:130
+[28-Mar-2014 22:58:55 America/Chicago] PHP   7. page_admin->init() C:\xampp\htdocs\agile\atk4\lib\AbstractObject.php:306
+[28-Mar-2014 22:58:55 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\agile\page\admin.php:6
+[28-Mar-2014 22:58:55 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\agile\atk4\lib\View\CRUD.php:220
+[28-Mar-2014 22:58:55 America/Chicago] PHP  10. SQL_Model->_dsql() C:\xampp\htdocs\agile\atk4\lib\AbstractView.php:115
+[28-Mar-2014 22:58:55 America/Chicago] PHP  11. SQL_Model->initQuery() C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php:127
+[28-Mar-2014 22:59:21 America/Chicago] PHP Fatal error:  Call to a member function dsql() on a non-object in C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php on line 115
+[28-Mar-2014 22:59:21 America/Chicago] PHP Stack trace:
+[28-Mar-2014 22:59:21 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\agile\index.php:0
+[28-Mar-2014 22:59:21 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\agile\index.php:15
+[28-Mar-2014 22:59:21 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:275
+[28-Mar-2014 22:59:21 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:39
+[28-Mar-2014 22:59:21 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:428
+[28-Mar-2014 22:59:21 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:130
+[28-Mar-2014 22:59:21 America/Chicago] PHP   7. page_admin->init() C:\xampp\htdocs\agile\atk4\lib\AbstractObject.php:306
+[28-Mar-2014 22:59:21 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\agile\page\admin.php:6
+[28-Mar-2014 22:59:21 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\agile\atk4\lib\View\CRUD.php:220
+[28-Mar-2014 22:59:21 America/Chicago] PHP  10. SQL_Model->_dsql() C:\xampp\htdocs\agile\atk4\lib\AbstractView.php:115
+[28-Mar-2014 22:59:21 America/Chicago] PHP  11. SQL_Model->initQuery() C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php:127
+[28-Mar-2014 23:00:29 America/Chicago] PHP Fatal error:  Call to a member function dsql() on a non-object in C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php on line 115
+[28-Mar-2014 23:00:29 America/Chicago] PHP Stack trace:
+[28-Mar-2014 23:00:29 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\agile\index.php:0
+[28-Mar-2014 23:00:29 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\agile\index.php:15
+[28-Mar-2014 23:00:29 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:275
+[28-Mar-2014 23:00:29 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:39
+[28-Mar-2014 23:00:29 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:428
+[28-Mar-2014 23:00:29 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:130
+[28-Mar-2014 23:00:29 America/Chicago] PHP   7. page_admin->init() C:\xampp\htdocs\agile\atk4\lib\AbstractObject.php:306
+[28-Mar-2014 23:00:29 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\agile\page\admin.php:6
+[28-Mar-2014 23:00:29 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\agile\atk4\lib\View\CRUD.php:220
+[28-Mar-2014 23:00:29 America/Chicago] PHP  10. SQL_Model->_dsql() C:\xampp\htdocs\agile\atk4\lib\AbstractView.php:115
+[28-Mar-2014 23:00:29 America/Chicago] PHP  11. SQL_Model->initQuery() C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php:127
+[28-Mar-2014 23:02:54 America/Chicago] PHP Fatal error:  Call to a member function dsql() on a non-object in C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php on line 115
+[28-Mar-2014 23:02:54 America/Chicago] PHP Stack trace:
+[28-Mar-2014 23:02:54 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\agile\index.php:0
+[28-Mar-2014 23:02:54 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\agile\index.php:15
+[28-Mar-2014 23:02:54 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:275
+[28-Mar-2014 23:02:54 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:39
+[28-Mar-2014 23:02:54 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:428
+[28-Mar-2014 23:02:54 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\agile\atk4\lib\ApiFrontend.php:130
+[28-Mar-2014 23:02:54 America/Chicago] PHP   7. page_admin->init() C:\xampp\htdocs\agile\atk4\lib\AbstractObject.php:306
+[28-Mar-2014 23:02:54 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\agile\page\admin.php:6
+[28-Mar-2014 23:02:54 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\agile\atk4\lib\View\CRUD.php:220
+[28-Mar-2014 23:02:54 America/Chicago] PHP  10. SQL_Model->_dsql() C:\xampp\htdocs\agile\atk4\lib\AbstractView.php:115
+[28-Mar-2014 23:02:54 America/Chicago] PHP  11. SQL_Model->initQuery() C:\xampp\htdocs\agile\atk4\lib\SQL\Model.php:127
+[28-Mar-2014 23:25:22 America/Chicago] PHP Parse error:  syntax error, unexpected '/' in C:\xampp\htdocs\adoption\lib\Frontend.php on line 19
+[28-Mar-2014 23:25:22 America/Chicago] PHP Stack trace:
+[28-Mar-2014 23:25:22 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\adoption\index.php:0
+[28-Mar-2014 23:25:22 America/Chicago] PHP   2. spl_autoload_call() C:\xampp\htdocs\adoption\index.php:14
+[28-Mar-2014 23:25:22 America/Chicago] PHP   3. {closure:C:\xampp\htdocs\adoption\atk4\lib\static.php:86-89}() C:\xampp\htdocs\adoption\index.php:0
+[28-Mar-2014 23:25:22 America/Chicago] PHP   4. loadClass() C:\xampp\htdocs\adoption\atk4\lib\static.php:87
+[29-Mar-2014 00:08:56 America/Chicago] PHP Fatal error:  Call to undefined function mandatory() in C:\xampp\htdocs\adoption\lib\Model\user.php on line 8
+[29-Mar-2014 00:08:56 America/Chicago] PHP Stack trace:
+[29-Mar-2014 00:08:56 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\adoption\index.php:0
+[29-Mar-2014 00:08:56 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\adoption\index.php:15
+[29-Mar-2014 00:08:56 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\adoption\atk4\lib\ApiWeb.php:275
+[29-Mar-2014 00:08:56 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\adoption\atk4\lib\ApiFrontend.php:39
+[29-Mar-2014 00:08:56 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\adoption\atk4\lib\ApiWeb.php:428
+[29-Mar-2014 00:08:56 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\adoption\atk4\lib\ApiFrontend.php:130
+[29-Mar-2014 00:08:56 America/Chicago] PHP   7. page_register->init() C:\xampp\htdocs\adoption\atk4\lib\AbstractObject.php:306
+[29-Mar-2014 00:08:56 America/Chicago] PHP   8. AbstractView->setModel() C:\xampp\htdocs\adoption\page\register.php:7
+[29-Mar-2014 00:08:56 America/Chicago] PHP   9. AbstractObject->setModel() C:\xampp\htdocs\adoption\atk4\lib\AbstractView.php:92
+[29-Mar-2014 00:08:56 America/Chicago] PHP  10. AbstractObject->add() C:\xampp\htdocs\adoption\atk4\lib\AbstractObject.php:400
+[29-Mar-2014 00:08:56 America/Chicago] PHP  11. Model_user->init() C:\xampp\htdocs\adoption\atk4\lib\AbstractObject.php:306
+[29-Mar-2014 00:35:03 America/Chicago] PHP Parse error:  syntax error, unexpected '$isAdmin' (T_VARIABLE) in C:\xampp\htdocs\adoption\lib\Frontend.php on line 22
+[29-Mar-2014 00:35:03 America/Chicago] PHP Stack trace:
+[29-Mar-2014 00:35:03 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\adoption\index.php:0
+[29-Mar-2014 00:35:03 America/Chicago] PHP   2. spl_autoload_call() C:\xampp\htdocs\adoption\index.php:14
+[29-Mar-2014 00:35:03 America/Chicago] PHP   3. {closure:C:\xampp\htdocs\adoption\atk4\lib\static.php:86-89}() C:\xampp\htdocs\adoption\index.php:0
+[29-Mar-2014 00:35:03 America/Chicago] PHP   4. loadClass() C:\xampp\htdocs\adoption\atk4\lib\static.php:87
+[29-Mar-2014 00:38:17 America/Chicago] PHP Fatal error:  [] operator not supported for strings in C:\xampp\htdocs\adoption\atk4\lib\Auth\Basic.php on line 81
+[29-Mar-2014 00:38:17 America/Chicago] PHP Stack trace:
+[29-Mar-2014 00:38:17 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\adoption\index.php:0
+[29-Mar-2014 00:38:17 America/Chicago] PHP   2. ApiWeb->__construct() C:\xampp\htdocs\adoption\index.php:14
+[29-Mar-2014 00:38:17 America/Chicago] PHP   3. ApiCLI->__construct() C:\xampp\htdocs\adoption\atk4\lib\ApiWeb.php:40
+[29-Mar-2014 00:38:17 America/Chicago] PHP   4. Frontend->init() C:\xampp\htdocs\adoption\atk4\lib\ApiCLI.php:183
+[29-Mar-2014 00:38:17 America/Chicago] PHP   5. Auth_Basic->allow() C:\xampp\htdocs\adoption\lib\Frontend.php:15

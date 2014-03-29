@@ -1,0 +1,21 @@
+[28-Mar-2014 15:54:52 America/Chicago] PHP Fatal error:  [] operator not supported for strings in C:\xampp\htdocs\agile\atk4\lib\Auth\Basic.php on line 81
+[28-Mar-2014 15:54:52 America/Chicago] PHP Stack trace:
+[28-Mar-2014 15:54:52 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\agile\examples\dvdrental\index.php:0
+[28-Mar-2014 15:54:52 America/Chicago] PHP   2. ApiWeb->__construct() C:\xampp\htdocs\agile\examples\dvdrental\index.php:3
+[28-Mar-2014 15:54:52 America/Chicago] PHP   3. ApiCLI->__construct() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:40
+[28-Mar-2014 15:54:52 America/Chicago] PHP   4. Frontend->init() C:\xampp\htdocs\agile\atk4\lib\ApiCLI.php:183
+[28-Mar-2014 15:54:52 America/Chicago] PHP   5. Auth_Basic->allow() C:\xampp\htdocs\agile\examples\dvdrental\lib\Frontend.php:22
+[28-Mar-2014 15:56:02 America/Chicago] PHP Fatal error:  [] operator not supported for strings in C:\xampp\htdocs\agile\atk4\lib\Auth\Basic.php on line 81
+[28-Mar-2014 15:56:02 America/Chicago] PHP Stack trace:
+[28-Mar-2014 15:56:02 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\agile\examples\dvdrental\index.php:0
+[28-Mar-2014 15:56:02 America/Chicago] PHP   2. ApiWeb->__construct() C:\xampp\htdocs\agile\examples\dvdrental\index.php:3
+[28-Mar-2014 15:56:02 America/Chicago] PHP   3. ApiCLI->__construct() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:40
+[28-Mar-2014 15:56:02 America/Chicago] PHP   4. Frontend->init() C:\xampp\htdocs\agile\atk4\lib\ApiCLI.php:183
+[28-Mar-2014 15:56:02 America/Chicago] PHP   5. Auth_Basic->allow() C:\xampp\htdocs\agile\examples\dvdrental\lib\Frontend.php:22
+[28-Mar-2014 16:00:02 America/Chicago] PHP Fatal error:  [] operator not supported for strings in C:\xampp\htdocs\agile\atk4\lib\Auth\Basic.php on line 81
+[28-Mar-2014 16:00:02 America/Chicago] PHP Stack trace:
+[28-Mar-2014 16:00:02 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\agile\examples\dvdrental\index.php:0
+[28-Mar-2014 16:00:02 America/Chicago] PHP   2. ApiWeb->__construct() C:\xampp\htdocs\agile\examples\dvdrental\index.php:3
+[28-Mar-2014 16:00:02 America/Chicago] PHP   3. ApiCLI->__construct() C:\xampp\htdocs\agile\atk4\lib\ApiWeb.php:40
+[28-Mar-2014 16:00:02 America/Chicago] PHP   4. Frontend->init() C:\xampp\htdocs\agile\atk4\lib\ApiCLI.php:183
+[28-Mar-2014 16:00:02 America/Chicago] PHP   5. Auth_Basic->allow() C:\xampp\htdocs\agile\examples\dvdrental\lib\Frontend.php:22
