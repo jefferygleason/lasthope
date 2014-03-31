@@ -108,3 +108,79 @@ Stack trace:
 [29-Mar-2014 00:38:17 America/Chicago] PHP   3. ApiCLI->__construct() C:\xampp\htdocs\adoption\atk4\lib\ApiWeb.php:40
 [29-Mar-2014 00:38:17 America/Chicago] PHP   4. Frontend->init() C:\xampp\htdocs\adoption\atk4\lib\ApiCLI.php:183
 [29-Mar-2014 00:38:17 America/Chicago] PHP   5. Auth_Basic->allow() C:\xampp\htdocs\adoption\lib\Frontend.php:15
+[30-Mar-2014 00:03:21 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in C:\xampp\htdocs\lasthope\page\dsql.php on line 25
+[30-Mar-2014 00:03:21 America/Chicago] PHP Stack trace:
+[30-Mar-2014 00:03:21 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[30-Mar-2014 00:03:21 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[30-Mar-2014 00:03:21 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[30-Mar-2014 00:03:21 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[30-Mar-2014 00:03:21 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[30-Mar-2014 00:03:21 America/Chicago] PHP   6. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:84
+[30-Mar-2014 00:03:21 America/Chicago] PHP   7. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[30-Mar-2014 08:06:15 America/Chicago] PHP Parse error:  syntax error, unexpected '$q' (T_VARIABLE) in C:\xampp\htdocs\lasthope\page\dsql.php on line 12
+[30-Mar-2014 08:06:15 America/Chicago] PHP Stack trace:
+[30-Mar-2014 08:06:15 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[30-Mar-2014 08:06:15 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[30-Mar-2014 08:06:15 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[30-Mar-2014 08:06:15 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[30-Mar-2014 08:06:15 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[30-Mar-2014 08:06:15 America/Chicago] PHP   6. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:84
+[30-Mar-2014 08:06:15 America/Chicago] PHP   7. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[30-Mar-2014 08:06:32 America/Chicago] PHP Fatal error:  Call to undefined function Field() in C:\xampp\htdocs\lasthope\page\dsql.php on line 11
+[30-Mar-2014 08:06:32 America/Chicago] PHP Stack trace:
+[30-Mar-2014 08:06:32 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[30-Mar-2014 08:06:32 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[30-Mar-2014 08:06:32 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[30-Mar-2014 08:06:32 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[30-Mar-2014 08:06:32 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[30-Mar-2014 08:06:32 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[30-Mar-2014 08:06:32 America/Chicago] PHP   7. page_dsql->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[30-Mar-2014 08:47:23 America/Chicago] PHP Parse error:  syntax error, unexpected ''d'' (T_CONSTANT_ENCAPSED_STRING) in C:\xampp\htdocs\lasthope\page\dsql.php on line 10
+[30-Mar-2014 08:47:23 America/Chicago] PHP Stack trace:
+[30-Mar-2014 08:47:23 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[30-Mar-2014 08:47:23 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[30-Mar-2014 08:47:23 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[30-Mar-2014 08:47:23 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[30-Mar-2014 08:47:23 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[30-Mar-2014 08:47:23 America/Chicago] PHP   6. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:84
+[30-Mar-2014 08:47:23 America/Chicago] PHP   7. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[30-Mar-2014 08:48:05 America/Chicago] PHP Parse error:  syntax error, unexpected ''d'' (T_CONSTANT_ENCAPSED_STRING) in C:\xampp\htdocs\lasthope\page\dsql.php on line 10
+[30-Mar-2014 08:48:05 America/Chicago] PHP Stack trace:
+[30-Mar-2014 08:48:05 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[30-Mar-2014 08:48:05 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[30-Mar-2014 08:48:05 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[30-Mar-2014 08:48:05 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[30-Mar-2014 08:48:05 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[30-Mar-2014 08:48:05 America/Chicago] PHP   6. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:84
+[30-Mar-2014 08:48:05 America/Chicago] PHP   7. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[30-Mar-2014 10:37:25 America/Chicago] PHP Fatal error:  Call to undefined function addField() in C:\xampp\htdocs\lasthope\lib\Model\dog.php on line 20
+[30-Mar-2014 10:37:25 America/Chicago] PHP Stack trace:
+[30-Mar-2014 10:37:25 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[30-Mar-2014 10:37:25 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[30-Mar-2014 10:37:25 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[30-Mar-2014 10:37:25 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[30-Mar-2014 10:37:25 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[30-Mar-2014 10:37:25 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[30-Mar-2014 10:37:25 America/Chicago] PHP   7. page_dogs->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[30-Mar-2014 10:37:25 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\lasthope\page\dogs.php:7
+[30-Mar-2014 10:37:25 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php:220
+[30-Mar-2014 10:37:25 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[30-Mar-2014 10:37:25 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[30-Mar-2014 10:37:25 America/Chicago] PHP  12. Model_dog->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[30-Mar-2014 10:53:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in C:\xampp\htdocs\lasthope\lib\Model\dog.php on line 8
+[30-Mar-2014 10:53:07 America/Chicago] PHP Stack trace:
+[30-Mar-2014 10:53:07 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[30-Mar-2014 10:53:07 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[30-Mar-2014 10:53:07 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[30-Mar-2014 10:53:07 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[30-Mar-2014 10:53:07 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[30-Mar-2014 10:53:07 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[30-Mar-2014 10:53:07 America/Chicago] PHP   7. page_dogs->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[30-Mar-2014 10:53:07 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\lasthope\page\dogs.php:7
+[30-Mar-2014 10:53:07 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php:220
+[30-Mar-2014 10:53:07 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[30-Mar-2014 10:53:07 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[30-Mar-2014 10:53:07 America/Chicago] PHP  12. spl_autoload_call() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:269
+[30-Mar-2014 10:53:07 America/Chicago] PHP  13. {closure:C:\xampp\htdocs\lasthope\atk4\lib\static.php:86-89}() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:0
+[30-Mar-2014 10:53:07 America/Chicago] PHP  14. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:87
+[30-Mar-2014 10:53:07 America/Chicago] PHP  15. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74

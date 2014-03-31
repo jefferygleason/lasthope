@@ -1,3 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -20,6 +21,8 @@
     <Compile Include="config-distrib.php" />
     <Compile Include="config.php" />
     <Compile Include="index.php" />
+    <Compile Include="page\breeds.php" />
+    <Compile Include="page\dsql.php" />
     <Compile Include="php_errors.log" />
     <Compile Include="README.md" />
     <Compile Include=".git\config" />

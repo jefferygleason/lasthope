@@ -20,6 +20,7 @@ class Frontend extends ApiFrontend {
             $menu = $this->add('Menu',null,'Menu')
                 ->addMenuItem('index','Welcome')
                 ->addMenuItem('dogs')
+                ->addMenuItem('breeds')
                 ;
         
             $isAdmin = $this->api->auth->model['is_admin'];
