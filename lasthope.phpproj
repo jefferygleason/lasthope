@@ -21,7 +21,12 @@
     <Compile Include="config-distrib.php" />
     <Compile Include="config.php" />
     <Compile Include="index.php" />
+    <Compile Include="lib\Model\fosterhomecontact.php" />
+    <Compile Include="page\fosterhome\details.php" />
     <Compile Include="page\breeds.php" />
+    <Compile Include="page\contacts.php" />
+    <Compile Include="page\delete_homeContacts.php" />
+    <Compile Include="page\fosterhome.php" />
     <Compile Include="page\dsql.php" />
     <Compile Include="php_errors.log" />
     <Compile Include="README.md" />
@@ -720,7 +725,7 @@
     <Compile Include="lib\old-Frontend.php" />
     <Compile Include="lib\Model\breed.php" />
     <Compile Include="lib\Model\dog.php" />
-    <Compile Include="lib\Model\home.php" />
+    <Compile Include="lib\Model\fosterhome.php" />
     <Compile Include="lib\Model\user.php" />
     <Compile Include="lib\Model\volunteer.php" />
     <Compile Include="page\about.php" />
@@ -747,6 +752,7 @@
     <Folder Include="examples" />
     <Folder Include="lib" />
     <Folder Include="page" />
+    <Folder Include="page\fosterhome\" />
     <Folder Include="templates" />
     <Folder Include=".git" />
     <Folder Include=".git\hooks" />
@@ -1016,8 +1022,45 @@
     <Folder Include="examples\dvdrental\templates\default\page" />
     <Folder Include="lib\Model" />
     <Folder Include="templates\default" />
+    <Folder Include="templates\default\css\" />
+    <Folder Include="templates\default\css\images\" />
+    <Folder Include="templates\default\css\less\" />
+    <Folder Include="templates\default\images\" />
     <Folder Include="templates\mail" />
     <Folder Include="templates\default\page" />
     <Folder Include="templates\default\view" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="templates\default\css\atk-main.less" />
+    <Content Include="templates\default\css\images\animated-overlay.gif" />
+    <Content Include="templates\default\css\images\ui-bg_diagonals-small_50_262626_40x40.png" />
+    <Content Include="templates\default\css\images\ui-bg_flat_0_303030_40x100.png" />
+    <Content Include="templates\default\css\images\ui-bg_flat_0_4c4c4c_40x100.png" />
+    <Content Include="templates\default\css\images\ui-bg_glass_40_0a0a0a_1x400.png" />
+    <Content Include="templates\default\css\images\ui-bg_glass_55_f1fbe5_1x400.png" />
+    <Content Include="templates\default\css\images\ui-bg_glass_60_000000_1x400.png" />
+    <Content Include="templates\default\css\images\ui-bg_gloss-wave_55_000000_500x100.png" />
+    <Content Include="templates\default\css\images\ui-bg_gloss-wave_85_9fda58_500x100.png" />
+    <Content Include="templates\default\css\images\ui-bg_gloss-wave_95_f6ecd5_500x100.png" />
+    <Content Include="templates\default\css\images\ui-icons_000000_256x240.png" />
+    <Content Include="templates\default\css\images\ui-icons_1f1f1f_256x240.png" />
+    <Content Include="templates\default\css\images\ui-icons_9fda58_256x240.png" />
+    <Content Include="templates\default\css\images\ui-icons_b8ec79_256x240.png" />
+    <Content Include="templates\default\css\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="templates\default\css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="templates\default\css\less\form.less" />
+    <Content Include="templates\default\css\less\grid.less" />
+    <Content Include="templates\default\css\less\jui-tweaks.less" />
+    <Content Include="templates\default\css\less\jui-variables.less" />
+    <Content Include="templates\default\css\less\menu.less" />
+    <Content Include="templates\default\css\less\misc.less" />
+    <Content Include="templates\default\css\less\mixins.less" />
+    <Content Include="templates\default\css\less\reset.less" />
+    <Content Include="templates\default\css\less\type.less" />
+    <Content Include="templates\default\css\less\utilities.less" />
+    <Content Include="templates\default\css\less\variables.less" />
+    <Content Include="templates\default\images\icon1.png" />
+    <Content Include="templates\default\images\icon2.png" />
+    <Content Include="templates\default\shared.html" />
   </ItemGroup>
 </Project>

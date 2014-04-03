@@ -184,3 +184,133 @@ Stack trace:
 [30-Mar-2014 10:53:07 America/Chicago] PHP  13. {closure:C:\xampp\htdocs\lasthope\atk4\lib\static.php:86-89}() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:0
 [30-Mar-2014 10:53:07 America/Chicago] PHP  14. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:87
 [30-Mar-2014 10:53:07 America/Chicago] PHP  15. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[31-Mar-2014 07:33:32 America/Chicago] PHP Parse error:  syntax error, unexpected '$home_record' (T_VARIABLE) in C:\xampp\htdocs\lasthope\lib\Model\contact.php on line 12
+[31-Mar-2014 07:33:32 America/Chicago] PHP Stack trace:
+[31-Mar-2014 07:33:32 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[31-Mar-2014 07:33:32 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[31-Mar-2014 07:33:32 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[31-Mar-2014 07:33:32 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[31-Mar-2014 07:33:32 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[31-Mar-2014 07:33:32 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[31-Mar-2014 07:33:32 America/Chicago] PHP   7. page_contacts->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[31-Mar-2014 07:33:32 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\lasthope\page\contacts.php:5
+[31-Mar-2014 07:33:32 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php:220
+[31-Mar-2014 07:33:32 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[31-Mar-2014 07:33:32 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[31-Mar-2014 07:33:32 America/Chicago] PHP  12. spl_autoload_call() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:269
+[31-Mar-2014 07:33:32 America/Chicago] PHP  13. {closure:C:\xampp\htdocs\lasthope\atk4\lib\static.php:86-89}() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:0
+[31-Mar-2014 07:33:32 America/Chicago] PHP  14. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:87
+[31-Mar-2014 07:33:32 America/Chicago] PHP  15. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[31-Mar-2014 07:35:46 America/Chicago] PHP Warning:  Uncaught exception 'ErrorException' with message 'Notice: [C:\xampp\htdocs\lasthope\lib\Model/<b>contact.php</b>:12]Undefined variable: fosterhome_ID' in C:\xampp\htdocs\lasthope\lib\Model/<b>contact.php</b>:12
+Stack trace:
+#0 C:\xampp\htdocs\lasthope\lib\Model\contact.php(12): error_handler(8, 'Undefined varia...', 'C:\xampp\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php(306): Model_contact->init()
+#2 C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php(400): AbstractObject->add('Model_contact')
+#3 C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php(92): AbstractObject->setModel('contact')
+#4 C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php(220): AbstractView->setModel('contact')
+#5 C:\xampp\htdocs\lasthope\page\contacts.php(5): View_CRUD->setModel('contact')
+#6 C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php(306): page_contacts->init()
+#7 C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php(130): AbstractObject->add('page_contacts', 'contacts', 'Content')
+#8 C:\xampp\htdocs\l in C:\xampp\htdocs\lasthope\lib\Model/<b>contact.php</b> on line 12
+[31-Mar-2014 07:35:46 America/Chicago] PHP Stack trace:
+[31-Mar-2014 07:35:46 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[31-Mar-2014 07:35:46 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[31-Mar-2014 07:35:46 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[31-Mar-2014 07:35:46 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[31-Mar-2014 07:35:46 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[31-Mar-2014 07:35:46 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[31-Mar-2014 07:35:46 America/Chicago] PHP   7. page_contacts->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[31-Mar-2014 07:35:46 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\lasthope\page\contacts.php:5
+[31-Mar-2014 07:35:46 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php:220
+[31-Mar-2014 07:35:46 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[31-Mar-2014 07:35:46 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[31-Mar-2014 07:35:46 America/Chicago] PHP  12. Model_contact->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[31-Mar-2014 07:35:46 America/Chicago] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\lasthope\lib\Model\contact.php on line 12
+[31-Mar-2014 07:35:46 America/Chicago] PHP Stack trace:
+[31-Mar-2014 07:35:46 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[31-Mar-2014 07:35:46 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[31-Mar-2014 07:35:46 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[31-Mar-2014 07:35:46 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[31-Mar-2014 07:35:46 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[31-Mar-2014 07:35:46 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[31-Mar-2014 07:35:46 America/Chicago] PHP   7. page_contacts->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[31-Mar-2014 07:35:46 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\lasthope\page\contacts.php:5
+[31-Mar-2014 07:35:46 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php:220
+[31-Mar-2014 07:35:46 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[31-Mar-2014 07:35:46 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[31-Mar-2014 07:35:46 America/Chicago] PHP  12. Model_contact->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[31-Mar-2014 07:37:05 America/Chicago] PHP Warning:  Uncaught exception 'ErrorException' with message 'Notice: [C:\xampp\htdocs\lasthope\lib\Model/<b>contact.php</b>:12]Undefined variable: fosterhome_ID' in C:\xampp\htdocs\lasthope\lib\Model/<b>contact.php</b>:12
+Stack trace:
+#0 C:\xampp\htdocs\lasthope\lib\Model\contact.php(12): error_handler(8, 'Undefined varia...', 'C:\xampp\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php(306): Model_contact->init()
+#2 C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php(400): AbstractObject->add('Model_contact')
+#3 C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php(92): AbstractObject->setModel('contact')
+#4 C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php(220): AbstractView->setModel('contact')
+#5 C:\xampp\htdocs\lasthope\page\contacts.php(5): View_CRUD->setModel('contact')
+#6 C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php(306): page_contacts->init()
+#7 C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php(130): AbstractObject->add('page_contacts', 'contacts', 'Content')
+#8 C:\xampp\htdocs\l in C:\xampp\htdocs\lasthope\lib\Model/<b>contact.php</b> on line 12
+[31-Mar-2014 07:37:05 America/Chicago] PHP Stack trace:
+[31-Mar-2014 07:37:05 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[31-Mar-2014 07:37:05 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[31-Mar-2014 07:37:05 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[31-Mar-2014 07:37:05 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[31-Mar-2014 07:37:05 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[31-Mar-2014 07:37:05 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[31-Mar-2014 07:37:05 America/Chicago] PHP   7. page_contacts->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[31-Mar-2014 07:37:05 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\lasthope\page\contacts.php:5
+[31-Mar-2014 07:37:05 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php:220
+[31-Mar-2014 07:37:05 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[31-Mar-2014 07:37:05 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[31-Mar-2014 07:37:05 America/Chicago] PHP  12. Model_contact->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[31-Mar-2014 07:37:06 America/Chicago] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\lasthope\lib\Model\contact.php on line 12
+[31-Mar-2014 07:37:06 America/Chicago] PHP Stack trace:
+[31-Mar-2014 07:37:06 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[31-Mar-2014 07:37:06 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[31-Mar-2014 07:37:06 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[31-Mar-2014 07:37:06 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[31-Mar-2014 07:37:06 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[31-Mar-2014 07:37:06 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[31-Mar-2014 07:37:06 America/Chicago] PHP   7. page_contacts->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[31-Mar-2014 07:37:06 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\lasthope\page\contacts.php:5
+[31-Mar-2014 07:37:06 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php:220
+[31-Mar-2014 07:37:06 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[31-Mar-2014 07:37:06 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[31-Mar-2014 07:37:06 America/Chicago] PHP  12. Model_contact->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[02-Apr-2014 06:14:48 America/Chicago] PHP Warning:  Uncaught exception 'ErrorException' with message 'Notice: [C:\xampp\htdocs\lasthope\lib\Model/<b>fosterhomecontact.php</b>:13]Undefined variable: fosterhome_id' in C:\xampp\htdocs\lasthope\lib\Model/<b>fosterhomecontact.php</b>:13
+Stack trace:
+#0 C:\xampp\htdocs\lasthope\lib\Model\fosterhomecontact.php(13): error_handler(8, 'Undefined varia...', 'C:\xampp\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php(306): Model_fosterhomecontact->init()
+#2 C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php(400): AbstractObject->add('Model_fosterhom...')
+#3 C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php(92): AbstractObject->setModel('fosterhomeconta...')
+#4 C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php(220): AbstractView->setModel('fosterhomeconta...')
+#5 C:\xampp\htdocs\lasthope\page\contacts.php(5): View_CRUD->setModel('fosterhomeconta...')
+#6 C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php(306): page_contacts->init()
+#7 C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php(130): Ab in C:\xampp\htdocs\lasthope\lib\Model/<b>fosterhomecontact.php</b> on line 13
+[02-Apr-2014 06:14:48 America/Chicago] PHP Stack trace:
+[02-Apr-2014 06:14:48 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[02-Apr-2014 06:14:48 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[02-Apr-2014 06:14:48 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[02-Apr-2014 06:14:48 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[02-Apr-2014 06:14:48 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[02-Apr-2014 06:14:48 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[02-Apr-2014 06:14:48 America/Chicago] PHP   7. page_contacts->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[02-Apr-2014 06:14:48 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\lasthope\page\contacts.php:5
+[02-Apr-2014 06:14:48 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php:220
+[02-Apr-2014 06:14:48 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[02-Apr-2014 06:14:48 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[02-Apr-2014 06:14:48 America/Chicago] PHP  12. Model_fosterhomecontact->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[02-Apr-2014 06:14:48 America/Chicago] PHP Fatal error:  Cannot access empty property in C:\xampp\htdocs\lasthope\lib\Model\fosterhomecontact.php on line 13
+[02-Apr-2014 06:14:48 America/Chicago] PHP Stack trace:
+[02-Apr-2014 06:14:48 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[02-Apr-2014 06:14:48 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[02-Apr-2014 06:14:48 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[02-Apr-2014 06:14:48 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[02-Apr-2014 06:14:48 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[02-Apr-2014 06:14:48 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[02-Apr-2014 06:14:48 America/Chicago] PHP   7. page_contacts->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[02-Apr-2014 06:14:48 America/Chicago] PHP   8. View_CRUD->setModel() C:\xampp\htdocs\lasthope\page\contacts.php:5
+[02-Apr-2014 06:14:48 America/Chicago] PHP   9. AbstractView->setModel() C:\xampp\htdocs\lasthope\atk4\lib\View\CRUD.php:220
+[02-Apr-2014 06:14:48 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[02-Apr-2014 06:14:48 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[02-Apr-2014 06:14:48 America/Chicago] PHP  12. Model_fosterhomecontact->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
