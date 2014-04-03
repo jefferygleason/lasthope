@@ -314,3 +314,12 @@ Stack trace:
 [02-Apr-2014 06:14:48 America/Chicago] PHP  10. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
 [02-Apr-2014 06:14:48 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
 [02-Apr-2014 06:14:48 America/Chicago] PHP  12. Model_fosterhomecontact->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[03-Apr-2014 05:40:44 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in C:\xampp\htdocs\lasthope\page\userprofile.php on line 8
+[03-Apr-2014 05:40:44 America/Chicago] PHP Stack trace:
+[03-Apr-2014 05:40:44 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[03-Apr-2014 05:40:44 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[03-Apr-2014 05:40:44 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[03-Apr-2014 05:40:44 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[03-Apr-2014 05:40:44 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[03-Apr-2014 05:40:44 America/Chicago] PHP   6. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:84
+[03-Apr-2014 05:40:44 America/Chicago] PHP   7. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74

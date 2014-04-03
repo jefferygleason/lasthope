@@ -25,9 +25,9 @@
     <Compile Include="page\fosterhome\details.php" />
     <Compile Include="page\breeds.php" />
     <Compile Include="page\contacts.php" />
-    <Compile Include="page\delete_homeContacts.php" />
     <Compile Include="page\fosterhome.php" />
     <Compile Include="page\dsql.php" />
+    <Compile Include="page\userprofile.php" />
     <Compile Include="php_errors.log" />
     <Compile Include="README.md" />
     <Compile Include=".git\config" />
