@@ -323,3 +323,29 @@ Stack trace:
 [03-Apr-2014 05:40:44 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
 [03-Apr-2014 05:40:44 America/Chicago] PHP   6. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:84
 [03-Apr-2014 05:40:44 America/Chicago] PHP   7. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[04-Apr-2014 20:00:44 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in C:\xampp\htdocs\lasthope\lib\Model\fosterhomecontact.php on line 10
+[04-Apr-2014 20:00:44 America/Chicago] PHP Stack trace:
+[04-Apr-2014 20:00:44 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[04-Apr-2014 20:00:44 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[04-Apr-2014 20:00:44 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[04-Apr-2014 20:00:44 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[04-Apr-2014 20:00:44 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[04-Apr-2014 20:00:44 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[04-Apr-2014 20:00:44 America/Chicago] PHP   7. page_fosterhome_details->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[04-Apr-2014 20:00:44 America/Chicago] PHP   8. SQL_Model->ref() C:\xampp\htdocs\lasthope\page\fosterhome\details.php:9
+[04-Apr-2014 20:00:44 America/Chicago] PHP   9. SQL_Many->ref() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Model.php:248
+[04-Apr-2014 20:00:44 America/Chicago] PHP  10. SQL_Many->restoreConditions() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:76
+[04-Apr-2014 20:00:44 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:56
+[04-Apr-2014 20:00:44 America/Chicago] PHP  12. spl_autoload_call() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:269
+[04-Apr-2014 20:00:44 America/Chicago] PHP  13. {closure:C:\xampp\htdocs\lasthope\atk4\lib\static.php:86-89}() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:0
+[04-Apr-2014 20:00:44 America/Chicago] PHP  14. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:87
+[04-Apr-2014 20:00:44 America/Chicago] PHP  15. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[05-Apr-2014 06:33:39 America/Chicago] PHP Fatal error:  Call to undefined function add() in C:\xampp\htdocs\lasthope\page\testPage.php on line 6
+[05-Apr-2014 06:33:39 America/Chicago] PHP Stack trace:
+[05-Apr-2014 06:33:39 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[05-Apr-2014 06:33:39 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[05-Apr-2014 06:33:39 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[05-Apr-2014 06:33:39 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[05-Apr-2014 06:33:39 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[05-Apr-2014 06:33:39 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[05-Apr-2014 06:33:39 America/Chicago] PHP   7. page_testPage->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306

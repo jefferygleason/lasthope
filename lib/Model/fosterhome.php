@@ -4,9 +4,9 @@ class Model_fosterhome extends Model_Table {
     function init(){
         parent::init();
         
-        $this->addField('fosterhomeName');
-        $this->addField('addr1');
-        $this->addField('addr2');
+        $this->addField('fosterhome_name');
+        $this->addField('address_1');
+        $this->addField('address_2');
         $this->addField('city');
         $this->addField('state');
         $this->addField('zip');
