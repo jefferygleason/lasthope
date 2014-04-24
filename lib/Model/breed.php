@@ -1,7 +1,7 @@
 <?php
 class Model_breed extends Model_Table {
     public $table="breed";
-   // public $id_field = "breed_id";
+    public $title_field="breedName";
     function init(){
         parent::init();
 

@@ -1,6 +1,7 @@
 <?php
 class Model_user extends Model_Table {
     public $table="user";
+
     function init(){
         parent::init();
         

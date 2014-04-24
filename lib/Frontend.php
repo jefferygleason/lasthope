@@ -23,6 +23,7 @@ class Frontend extends ApiFrontend {
                 ->addMenuItem('breeds')
                 ->addMenuItem('fosterhome', 'Foster Homes')
                 ->addMenuItem('contacts')
+                ->addMenuItem('dogdetailcodes', 'Dog Detail Fields')
                 ->addMenuItem('userprofile', 'User Profile')
                 ;
         
