@@ -1335,3 +1335,52 @@ Stack trace:
 [22-Apr-2014 05:55:15 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
 [22-Apr-2014 05:55:15 America/Chicago] PHP   6. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:84
 [22-Apr-2014 05:55:15 America/Chicago] PHP   7. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[30-Apr-2014 05:35:00 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\lasthope\page\dogs\events\add.php on line 38
+[30-Apr-2014 05:35:00 America/Chicago] PHP Stack trace:
+[30-Apr-2014 05:35:00 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[30-Apr-2014 05:35:00 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[30-Apr-2014 05:35:00 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[30-Apr-2014 05:35:01 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[30-Apr-2014 05:35:01 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[30-Apr-2014 05:35:01 America/Chicago] PHP   6. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:84
+[30-Apr-2014 05:35:01 America/Chicago] PHP   7. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[01-May-2014 04:21:52 America/Chicago] PHP Parse error:  syntax error, unexpected ')' in C:\xampp\htdocs\lasthope\page\dogs\events.php on line 10
+[01-May-2014 04:21:52 America/Chicago] PHP Stack trace:
+[01-May-2014 04:21:52 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[01-May-2014 04:21:52 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[01-May-2014 04:21:52 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[01-May-2014 04:21:52 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[01-May-2014 04:21:52 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[01-May-2014 04:21:52 America/Chicago] PHP   6. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:84
+[01-May-2014 04:21:52 America/Chicago] PHP   7. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[01-May-2014 04:47:27 America/Chicago] PHP Parse error:  syntax error, unexpected ';' in C:\xampp\htdocs\lasthope\lib\Model\dogevent.php on line 15
+[01-May-2014 04:47:27 America/Chicago] PHP Stack trace:
+[01-May-2014 04:47:27 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[01-May-2014 04:47:27 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[01-May-2014 04:47:27 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[01-May-2014 04:47:27 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[01-May-2014 04:47:27 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[01-May-2014 04:47:27 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[01-May-2014 04:47:27 America/Chicago] PHP   7. page_dogs_events->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[01-May-2014 04:47:27 America/Chicago] PHP   8. SQL_Model->ref() C:\xampp\htdocs\lasthope\page\dogs\events.php:11
+[01-May-2014 04:47:27 America/Chicago] PHP   9. SQL_Many->ref() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Model.php:248
+[01-May-2014 04:47:27 America/Chicago] PHP  10. SQL_Many->restoreConditions() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:76
+[01-May-2014 04:47:27 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:56
+[01-May-2014 04:47:27 America/Chicago] PHP  12. spl_autoload_call() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:269
+[01-May-2014 04:47:27 America/Chicago] PHP  13. {closure:C:\xampp\htdocs\lasthope\atk4\lib\static.php:86-89}() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:0
+[01-May-2014 04:47:27 America/Chicago] PHP  14. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:87
+[01-May-2014 04:47:27 America/Chicago] PHP  15. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
+[01-May-2014 04:53:01 America/Chicago] PHP Fatal error:  Function name must be a string in C:\xampp\htdocs\lasthope\lib\Model\dogevent.php on line 15
+[01-May-2014 04:53:01 America/Chicago] PHP Stack trace:
+[01-May-2014 04:53:01 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[01-May-2014 04:53:01 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[01-May-2014 04:53:01 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[01-May-2014 04:53:01 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[01-May-2014 04:53:01 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[01-May-2014 04:53:01 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[01-May-2014 04:53:01 America/Chicago] PHP   7. page_dogs_events->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[01-May-2014 04:53:01 America/Chicago] PHP   8. SQL_Model->ref() C:\xampp\htdocs\lasthope\page\dogs\events.php:11
+[01-May-2014 04:53:01 America/Chicago] PHP   9. SQL_Many->ref() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Model.php:248
+[01-May-2014 04:53:01 America/Chicago] PHP  10. SQL_Many->restoreConditions() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:76
+[01-May-2014 04:53:01 America/Chicago] PHP  11. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\SQL\Many.php:56
+[01-May-2014 04:53:01 America/Chicago] PHP  12. Model_dogevent->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306

@@ -14,7 +14,7 @@ class page_dogs_events_add extends Page {
        
         $dog_field = $form->getElement('dog_id');
         $dog_field->model->addCondition('id', $_GET['dog_id']);
-                
+
         $event_type_field = $form->getElement('event_type');
 
         $event_field=$form->getElement('event_code_id');
@@ -29,13 +29,21 @@ class page_dogs_events_add extends Page {
             )
             );
         
-        if($form->isSubmitted()){
 
-            $form->update();
+        $form->addSubmit();
+        
+        
+        if($form->isSubmitted()){
+           // var_dump($_POST);
+           $form->update();
+
             $form->js()->univ()->alert('Success')->execute();
+                       $form->close();
+           // $form->js()->univ()->alert("Dog:  " . $_GET['dog_id'] . " Event Type:  " . $_POST['event_type'])->execute();
+        //$event = $form->model->ref('event_code_id');
         
         }
-        var_dump(array_keys($form->elements));
+//        var_dump(array_keys($form->elements));
         
  
 

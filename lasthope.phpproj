@@ -31,6 +31,9 @@
     <Compile Include="page\dogdetailcodes\values.php" />
     <Compile Include="page\dogs\details.php" />
     <Compile Include="page\dogs\events.php" />
+    <Compile Include="page\dogs\old-events.php" />
+    <Compile Include="page\dogs\events\delete.php" />
+    <Compile Include="page\dogs\events\edit.php" />
     <Compile Include="page\dogs\events\add.php" />
     <Compile Include="page\testDogDetails.php" />
     <Compile Include="page\volunteers.php" />

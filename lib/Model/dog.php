@@ -7,7 +7,6 @@ class Model_dog extends Model_Table {
         
         
         $this->addField('dogName');
-
         $this->hasOne('breed','breed_id', 'breedName', 'breedName');
         $this->addField('dogHomeName');
         $this->addField('intakeDate')->type('date');
