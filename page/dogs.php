@@ -12,7 +12,6 @@ class page_dogs extends Page {
         $grid->getColumn('weight')->makeSortable();
         $grid->addQuickSearch(array('dogName', 'breedName', 'sex', 'intakeDate'));
         $grid->addColumn('button', 'events');
-       // $grid->addColumn('expander', 'events');
         $grid->addColumn('expander', 'details');
         
         if($_GET['events']){
@@ -22,26 +21,13 @@ class page_dogs extends Page {
                 ->execute();
         }
         
-    }
-    
-    function events() {
-    
-        $this->api->stickyGET($_GET['dog_id']);
-        /*
-        $dog=$this->add('Model_dog')->load($_GET['dog_id']);
-        $cr=$this->add('CRUD');
-        $cr->setModel($dog->ref('dogevent'));
-        */
-        
+        if($_GET['events']){
+            
+            $grid->js()->univ()
+                ->dialogURL('Dog Details', $this->api->url('./details', array('dog_id'=>$_GET['events'])))
+                ->execute();
+        }
         
     }
     
-    function details() {
-    
-        $this->api->stickyGET($_GET['dog_id']);
-        $dog=$this->add('Model_dog')->load($_GET['dog_id']);
-        $cr=$this->add('CRUD');
-        $cr->setModel($dog->ref('dogdetail'));
-    
-    }
 }

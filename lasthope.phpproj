@@ -21,9 +21,10 @@
     <Compile Include="config-distrib.php" />
     <Compile Include="config.php" />
     <Compile Include="index.php" />
-    <Compile Include="lib\Model\eventcodetype.php" />
-    <Compile Include="lib\Model\eventcode.php" />
     <Compile Include="lib\Model\dogevent.php" />
+    <Compile Include="lib\Model\eventcode.php" />
+    <Compile Include="lib\Model\eventcodetype.php" />
+    <Compile Include="lib\Model\old-dogevent.php" />
     <Compile Include="lib\Model\vet.php" />
     <Compile Include="lib\Model\restriction.php" />
     <Compile Include="lib\Model\dogdetail.php" />
@@ -34,8 +35,9 @@
     <Compile Include="page\dogs\old-events.php" />
     <Compile Include="page\dogs\events\delete.php" />
     <Compile Include="page\dogs\events\edit.php" />
-    <Compile Include="page\dogs\events\add.php" />
+    <Compile Include="page\dogs\events\old-add.php" />
     <Compile Include="page\testDogDetails.php" />
+    <Compile Include="page\testDogEventByType.php" />
     <Compile Include="page\volunteers.php" />
     <Compile Include="page\fosterhome\details.php" />
     <Compile Include="page\breeds.php" />

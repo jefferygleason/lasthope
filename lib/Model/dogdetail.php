@@ -10,7 +10,9 @@ class Model_dogdetail extends Model_Table {
         $this->addField('housebroken')->type('Boolean');
         $this->addField('puppy_mill_dog')->type('Boolean');
         $this->addField('fence_jumper')->type('Boolean');
-        $this->addField('energy_level')->display('dropdown')->enum(array('low','medium','high'));
+        $this->addField("energy_level")
+            ->defaultValue(0)
+            ->listData(array('low'=>'low','medium'=>'medium','high'=>'high'));
         $this->addField('petfinder_id');
         $this->addField('chip_number');
         $this->addField('current_location');
