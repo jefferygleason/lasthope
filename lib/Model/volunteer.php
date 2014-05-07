@@ -6,8 +6,6 @@ class Model_volunteer extends Model_Table {
         
         $this->addField('last_name');
         $this->addField('first_name');
-        $name = $this->addField('name');
-        $name = 'last_name' . ', ' . 'first_name';
         $this->addField('address1');
         $this->addField('address2');
         $this->addField('city');

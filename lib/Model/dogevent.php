@@ -5,7 +5,7 @@ class Model_dogevent extends Model_Table {
     function init(){
         parent::init();
 
-        $this->hasOne('dog', 'dog_id', 'dogName', 'dog');
+        $this->hasOne('dog', 'dog_id', 'dog_name', 'dog');
         $this->hasOne('eventcode', null, 'name', 'eventcode');
         $this->hasOne('volunteer', 'recorded_by', 'last_name');
         $this->hasOne('volunteer', 'performed_by', 'last_name');      

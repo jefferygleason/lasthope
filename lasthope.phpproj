@@ -31,6 +31,7 @@
     <Compile Include="lib\Model\dogdetail.php" />
     <Compile Include="lib\Model\fosterhomecontact.php" />
     <Compile Include="page\dogdetailcodes\values.php" />
+    <Compile Include="page\dogmanager.php" />
     <Compile Include="page\dogs\details.php" />
     <Compile Include="page\dogs\events.php" />
     <Compile Include="page\dogs\old-events.php" />
@@ -47,7 +48,6 @@
     <Compile Include="page\dsql.php" />
     <Compile Include="page\testPage.php" />
     <Compile Include="page\userprofile.php" />
-    <Compile Include="php_errors.log" />
     <Compile Include="README.md" />
     <Compile Include=".git\config" />
     <Compile Include=".git\description" />
@@ -775,6 +775,7 @@
     <Folder Include="page\fosterhome\" />
     <Folder Include="page\dogs\" />
     <Folder Include="page\dogdetailcodes\" />
+    <Folder Include="page\dogmanager\" />
     <Folder Include="templates" />
     <Folder Include=".git" />
     <Folder Include=".git\hooks" />
@@ -1048,9 +1049,11 @@
     <Folder Include="templates\default\css\images\" />
     <Folder Include="templates\default\css\less\" />
     <Folder Include="templates\default\images\" />
+    <Folder Include="templates\jui\view\" />
     <Folder Include="templates\mail" />
     <Folder Include="templates\default\page" />
     <Folder Include="templates\default\view" />
+    <Folder Include="templates\jui\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="templates\default\css\atk-custom.css" />
@@ -1097,9 +1100,11 @@
     <Content Include="templates\default\css\less\type.less" />
     <Content Include="templates\default\css\less\utilities.less" />
     <Content Include="templates\default\css\less\variables.less" />
+    <Content Include="templates\default\dogmanager.html" />
     <Content Include="templates\default\images\icon1.png" />
     <Content Include="templates\default\images\icon2.png" />
     <Content Include="templates\default\images\logo.png" />
     <Content Include="templates\default\shared.html" />
+    <Content Include="templates\jui\view\dog_details.html" />
   </ItemGroup>
 </Project>
