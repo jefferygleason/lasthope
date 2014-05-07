@@ -21,6 +21,7 @@
     <Compile Include="config-distrib.php" />
     <Compile Include="config.php" />
     <Compile Include="index.php" />
+    <Compile Include="lib\Model\dogallfields.php" />
     <Compile Include="lib\Model\dogevent.php" />
     <Compile Include="lib\Model\eventcode.php" />
     <Compile Include="lib\Model\eventcodetype.php" />

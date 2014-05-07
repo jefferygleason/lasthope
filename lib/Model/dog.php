@@ -5,19 +5,19 @@ class Model_dog extends Model_Table {
     function init(){
         parent::init();
         
-        
-        $this->addField('dogName');
+
+        $this->addField('dog_name');
         $this->hasOne('breed','breed_id', 'breedName', 'breedName');
-        $this->addField('dogHomeName');
-        $this->addField('intakeDate')->type('date');
-        $this->addField('intakeSource');
+        $this->addField('dog_home_name');
+        $this->addField('intake_date')->type('date');
+        $this->addField('intake_source');
         $this->addField('age');
         $this->addField('dob')->type('date');
         $this->addField('sex');
         $this->addField('size');
         $this->addField('weight');
         $this->hasOne('vet')->caption('Primary Vet');
-        $this->hasMany('dogdetail');
+        $this->addField('is_adopted')->type('boolean');
         $this->hasMany('restriction');
         $this->hasMany('dogevent');
     }

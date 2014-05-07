@@ -2426,3 +2426,19 @@ Stack trace:
 [04-May-2014 06:25:26 America/Chicago] PHP  20. Field_Reference->getModel() C:\xampp\htdocs\lasthope\atk4\lib\Field\Reference.php:133
 [04-May-2014 06:25:26 America/Chicago] PHP  21. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\Field\Reference.php:41
 [04-May-2014 06:25:26 America/Chicago] PHP  22. Model_volunteer->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[05-May-2014 08:38:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in C:\xampp\htdocs\lasthope\lib\Model\dog.php on line 9
+[05-May-2014 08:38:57 America/Chicago] PHP Stack trace:
+[05-May-2014 08:38:57 America/Chicago] PHP   1. {main}() C:\xampp\htdocs\lasthope\index.php:0
+[05-May-2014 08:38:57 America/Chicago] PHP   2. ApiWeb->main() C:\xampp\htdocs\lasthope\index.php:15
+[05-May-2014 08:38:57 America/Chicago] PHP   3. ApiFrontend->initLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:275
+[05-May-2014 08:38:57 America/Chicago] PHP   4. ApiWeb->addLayout() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:39
+[05-May-2014 08:38:57 America/Chicago] PHP   5. ApiFrontend->layout_Content() C:\xampp\htdocs\lasthope\atk4\lib\ApiWeb.php:428
+[05-May-2014 08:38:57 America/Chicago] PHP   6. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\ApiFrontend.php:130
+[05-May-2014 08:38:57 America/Chicago] PHP   7. page_dogs->init() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:306
+[05-May-2014 08:38:57 America/Chicago] PHP   8. AbstractView->setModel() C:\xampp\htdocs\lasthope\page\dogs.php:7
+[05-May-2014 08:38:57 America/Chicago] PHP   9. AbstractObject->setModel() C:\xampp\htdocs\lasthope\atk4\lib\AbstractView.php:92
+[05-May-2014 08:38:57 America/Chicago] PHP  10. AbstractObject->add() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:400
+[05-May-2014 08:38:57 America/Chicago] PHP  11. spl_autoload_call() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:269
+[05-May-2014 08:38:57 America/Chicago] PHP  12. {closure:C:\xampp\htdocs\lasthope\atk4\lib\static.php:86-89}() C:\xampp\htdocs\lasthope\atk4\lib\AbstractObject.php:0
+[05-May-2014 08:38:57 America/Chicago] PHP  13. loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:87
+[05-May-2014 08:38:57 America/Chicago] PHP  14. PathFinder->loadClass() C:\xampp\htdocs\lasthope\atk4\lib\static.php:74
