@@ -17,8 +17,10 @@ class page_dogs_details extends Page {
 
         if($form->isSubmitted()){
 
+           // $form->update()->js(null, $form->js()->_selector('.mygrid')->trigger('reload_me'))->univ()->closeDialog()->execute();
             $form->update();
-            $form->js()->univ()->alert('Changes have been saved.')->execute();
+            $this->js()->_selector('.myreload')->trigger('myreload')->execute();
+            //$form->js()->univ()->alert('Changes have been saved.')->execute();
         
         }
       

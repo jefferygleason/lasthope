@@ -8,7 +8,7 @@ class page_dogmanager extends Page {
         $dogs->setModel('dog', array('dog_name', 'dog_home_name', 'age', 'sex'));
         $dogs->addQuickSearch(array('dog_name', 'dog_home_name'));
         $dogs->addButton('New Dog');
-$dogs->getColumn('dog_name')->setTemplate('dog_details');
+        $dogs->getColumn('dog_name')->setTemplate('dog_details');
          $dogs->addFormatter('dog_name', 'link');
 
         /*if($_GET['events']){
