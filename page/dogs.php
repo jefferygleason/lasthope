@@ -10,15 +10,13 @@ class page_dogs extends Page {
         $grid->getColumn('intake_date')->makeSortable();
         $grid->getColumn('age')->makeSortable();
         $grid->getColumn('weight')->makeSortable();
-        $grid->addQuickSearch(array('dogName', 'breedName', 'sex', 'intakeDate'));
+        $grid->addQuickSearch(array('dog_name', 'breedName', 'sex', 'intake_date'));
         $grid->addColumn('button', 'events');
         //$grid->addColumn('button', 'details');
         $grid->addButton('Add New Dog')->js('click')->univ()->frameURL('New Dog', $this->api->url('./add'));
         $grid->addColumn('button', 'details');
-  /*          ->js('click')
-            ->univ()
-            ->dialogURL('Edit', $this->api->url('./details', array('dog_id'=>$_GET['edit'])));
-    */        
+        $grid->addColumn('button', 'delete');
+        
         $grid->js(true)->addClass('myreload');
         $grid->js('myreload')->reload();
         
@@ -34,6 +32,12 @@ class page_dogs extends Page {
             $grid->js()->univ()
                 ->dialogURL('Dog Details', $this->api->url('./details', array('dog_id'=>$_GET['details'])))
                 ->execute();
+        }
+        
+        if($_GET['delete']){
+            $grid->model->delete($_GET['delete']);
+            $grid->js()->reload()->execute();
+          //  $grid->reload();
         }
         
     }
@@ -61,18 +65,23 @@ class page_dogs extends Page {
     
     function page_add(){
     
-        $p=$this;
-        $m=$p->add('Model_dogdetail');
-        $form=$p->add('Form');
-        $form->setModel($m);
+        $form=$this->add('Form');
+        $form->setModel('dogdetail');
         $form->addSubmit();
         
         if($form->isSubmitted()){
-            $m->update();//inserts new record into db.
+            $form->update();//inserts new record into db.
             //$new_id=$m->get('id');//gets id of new record
             //$this->api->memorize('new_id',$new_id);//carries id across pages
             //$this->js()->atk4_load($this->api->url('./Step2'))->execute();
-            $this->js()
+            
+//var_dump($form->elements);
+
+/*            $m['dog_name']=$form->getElement('dog_name')->js()->val();
+            $m['dog_home_name']=$form->getElement('dog_home_name')->js()->val();
+            $m['breed_id']=$form->getElement('breed_id')->js()->val();
+            $m->save();
+  */        $this->js()
                 ->_selector('.myreload')
                 ->trigger('myreload')
                 ->univ()

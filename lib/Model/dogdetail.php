@@ -4,7 +4,7 @@ class Model_dogdetail extends Model_Table {
     public $title_field="dog_name";
     function init(){
         parent::init();
-        $this->debug();
+      //  $this->debug();
         $this->addField('dog_name');
         $this->addField('dog_home_name');
         $this->hasOne('breed','breed_id', 'breedName', 'breedName');
