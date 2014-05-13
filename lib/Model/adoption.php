@@ -18,15 +18,15 @@ class Model_dog extends Model_Table {
         $this->addField('weight');
         $this->hasOne('vet')->caption('Primary Vet');
         $this->addField('is_adopted')->type('boolean');
-      //  $this->hasMany('restriction');
+        $this->hasMany('restriction');
         $this->hasMany('dogevent');
     }
     
     function adoptDog()
     {
     
-        $this
-            ->set('is_adopted', true)
-            ->update();
+        $this['is_adopted']=1;
+        $this->save();
+    
     }
 }

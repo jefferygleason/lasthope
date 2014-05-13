@@ -1,8 +1,8 @@
 <?php
 class page_dogs extends Page {
-    function initMainPage(){
+    function initMainPage(){    
     
-        $grid=$this->add('Grid');
+        $grid=$this->add('Grid');   
         $grid->setModel('dog');
         $grid->addPaginator(10);
         $grid->getColumn('dog_name')->makeSortable();
@@ -12,13 +12,14 @@ class page_dogs extends Page {
         $grid->getColumn('weight')->makeSortable();
         $grid->addQuickSearch(array('dog_name', 'breedName', 'sex', 'intake_date'));
         $grid->addColumn('button', 'events');
-        //$grid->addColumn('button', 'details');
         $grid->addButton('Add New Dog')->js('click')->univ()->frameURL('New Dog', $this->api->url('./add'));
         $grid->addColumn('button', 'details');
         $grid->addColumn('button', 'delete');
         
         $grid->js(true)->addClass('myreload');
         $grid->js('myreload')->reload();
+        
+        
         
         if($_GET['events']){
             
