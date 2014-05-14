@@ -19,4 +19,5 @@
 /* --------------------------------------------------------------------
 	Default Layout
 -------------------------------------------------------------------- */
-#atk-logo {border:none;font-size:0;line-height:0;width:163px;height:41px;overflow:hidden;}
+/*#atk-logo {border:none;font-size:0;line-height:0;width:163px;height:41px;overflow:hidden;}*/
+#atk-logo {border:none;font-size:0;line-height:0;width:163px;height:150px;overflow:hidden;}

@@ -42,6 +42,7 @@
     <Compile Include="lib\Model\dogdetail.php" />
     <Compile Include="lib\Model\fosterhomecontact.php" />
     <Compile Include="lib\Model\applicant.php" />
+    <Compile Include="page\dogform.php" />
     <Compile Include="page\referencecheck.php" />
     <Compile Include="page\applicants\details.php" />
     <Compile Include="page\dogdetailcodes\values.php" />
@@ -55,15 +56,12 @@
     <Compile Include="page\dogs\events\old-add.php" />
     <Compile Include="page\applicants.php" />
     <Compile Include="page\referencecheck\details.php" />
-    <Compile Include="page\testDogDetails.php" />
-    <Compile Include="page\testDogEventByType.php" />
     <Compile Include="page\volunteers.php" />
     <Compile Include="page\fosterhome\details.php" />
     <Compile Include="page\breeds.php" />
     <Compile Include="page\contacts.php" />
     <Compile Include="page\fosterhome.php" />
     <Compile Include="page\dsql.php" />
-    <Compile Include="page\testPage.php" />
     <Compile Include="page\userprofile.php" />
     <Compile Include="README.md" />
     <Compile Include=".git\config" />

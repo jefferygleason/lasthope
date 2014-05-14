@@ -1,11 +1,10 @@
 <?php
 class Model_reference extends Model_Table {
-    public $table="references";
+    public $table="reference";
     function init(){
         parent::init();
         
-        $this->addField('last_name');
-        $this->addField('first_name');
+        $this->addField('name');
         $this->addField('address1');
         $this->addField('address2');
         $this->addField('city');
@@ -17,8 +16,8 @@ class Model_reference extends Model_Table {
         $this->addField('facebook');
         $this->addField('twitter');
         $this->addField('notes')->type('text');
-        $this->hasOne('applicant');
-        $this->hasMany('referencecheck');
+        $this->hasOne('applicant', null, 'name');
+        //$this->hasMany('referencecheck');
         
     }
 }

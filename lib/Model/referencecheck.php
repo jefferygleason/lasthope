@@ -4,10 +4,10 @@ class Model_referencecheck extends Model_Table {
     function init(){
         parent::init();
         
-        $this->hasOne('applicant');
-        $this->hasOne('reference');
+        $this->hasOne('applicant', null, 'name');
+        $this->hasOne('reference', null, 'name');
         $this->addField('contact_date')->type('date');
-        $this->hasMany('notes')->type('text');
+        $this->addField('notes')->type('text');
         
     }
 }

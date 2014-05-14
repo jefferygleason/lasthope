@@ -4,8 +4,7 @@ class Model_applicant extends Model_Table {
     function init(){
         parent::init();
         
-        $this->addField('last_name');
-        $this->addField('first_name');
+        $this->addField('name');        
         $this->addField('address1');
         $this->addField('address2');
         $this->addField('city');
