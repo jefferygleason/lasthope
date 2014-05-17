@@ -32,7 +32,6 @@
     <Compile Include="lib\Model\adoption.php" />
     <Compile Include="lib\Model\referencecheck.php" />
     <Compile Include="lib\Model\reference.php" />
-    <Compile Include="lib\Model\dogallfields.php" />
     <Compile Include="lib\Model\dogevent.php" />
     <Compile Include="lib\Model\eventcode.php" />
     <Compile Include="lib\Model\eventcodetype.php" />
@@ -43,10 +42,10 @@
     <Compile Include="lib\Model\fosterhomecontact.php" />
     <Compile Include="lib\Model\applicant.php" />
     <Compile Include="page\dogform.php" />
+    <Compile Include="page\dogsdisplay.php" />
     <Compile Include="page\referencecheck.php" />
     <Compile Include="page\applicants\details.php" />
     <Compile Include="page\dogdetailcodes\values.php" />
-    <Compile Include="page\dogmanager.php" />
     <Compile Include="page\adoption.php" />
     <Compile Include="page\dogs\details.php" />
     <Compile Include="page\dogs\events.php" />
@@ -775,6 +774,7 @@
     <Compile Include="templates\default\README" />
     <Compile Include="templates\default\page\about.html" />
     <Compile Include="templates\default\page\how.html" />
+    <Compile Include="templates\default\view\delete-DogDisplay.php" />
     <Compile Include="templates\default\view\myinfobox.html" />
     <Compile Include="templates\mail\greeting.txt" />
     <Compile Include="templates\mail\README" />
@@ -1066,11 +1066,9 @@
     <Folder Include="templates\default\css\images\" />
     <Folder Include="templates\default\css\less\" />
     <Folder Include="templates\default\images\" />
-    <Folder Include="templates\jui\view\" />
     <Folder Include="templates\mail" />
     <Folder Include="templates\default\page" />
     <Folder Include="templates\default\view" />
-    <Folder Include="templates\jui\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="templates\default\css\atk-custom.css" />
@@ -1117,11 +1115,11 @@
     <Content Include="templates\default\css\less\type.less" />
     <Content Include="templates\default\css\less\utilities.less" />
     <Content Include="templates\default\css\less\variables.less" />
-    <Content Include="templates\default\dogmanager.html" />
+    <Content Include="templates\default\delete-dogmanager.html" />
     <Content Include="templates\default\images\icon1.png" />
     <Content Include="templates\default\images\icon2.png" />
     <Content Include="templates\default\images\logo.png" />
     <Content Include="templates\default\shared.html" />
-    <Content Include="templates\jui\view\dog_details.html" />
+    <Content Include="templates\default\view\DogDisplay.html" />
   </ItemGroup>
 </Project>
