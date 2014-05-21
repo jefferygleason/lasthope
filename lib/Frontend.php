@@ -10,10 +10,19 @@ class Frontend extends ApiFrontend {
         $this->requires('atk','4.2.0');
         // A lot of the functionality in Agile Toolkit requires jUI
         $this->add('jUI');
-        
+            
+        $this->pathfinder->addLocation('.',array(
+                    'addons'=>array('ambient-addons'),
+                    'CSS'=>'ambient_addons/cms/templates/default/css',
+                    'template'=>'ambient-addons/cms/templates/default',
+                    )
+                );
+                
+        $this->add("cms/Controller_Cms");
         $this->add('Auth')->setModel('User');
         $this->auth->allowPage('register');
         
+
         
         if($this->auth->isLoggedIn()){
         
@@ -29,7 +38,9 @@ class Frontend extends ApiFrontend {
             $isAdmin = $this->api->auth->model['is_admin'];
             
             if ($isAdmin){
-                $menu->addMenuItem('admin');
+                $menu
+                    ->addMenuItem('admin')
+                    ->addMenuItem("cmsadmin", "Manage CMS");
             }
             
             $menu

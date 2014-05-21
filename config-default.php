@@ -1,11 +1,12 @@
 <?php
 
 $config['atk']['base_path']='./atk4/';
-$config['dsn']='mysql://root:root@localhost/examples';
+$config['dsn']='mysql://root:inc0that@localhost/lasthope';
 //no change
 
 $config['url_postfix']='';
 $config['url_prefix']='?page=';
+$config["frontend"]["token"]='lasthope';
 
 # Agile Toolkit attempts to use as many default values for config file,
 # and you only need to add them here if you wish to re-define default
