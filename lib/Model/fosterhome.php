@@ -13,6 +13,8 @@ class Model_fosterhome extends Model_Table {
         $this->addField('zip');
 
         $this->hasMany('fosterhomecontact');
+        $this->hasMany('dog');
+        $this->hasMany('dogdetail');
   
     }
 }

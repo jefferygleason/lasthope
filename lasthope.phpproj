@@ -103,7 +103,6 @@
     <Compile Include="lib\Model\dogevent.php" />
     <Compile Include="lib\Model\eventcode.php" />
     <Compile Include="lib\Model\eventcodetype.php" />
-    <Compile Include="lib\Model\old-dogevent.php" />
     <Compile Include="lib\Model\vet.php" />
     <Compile Include="lib\Model\restriction.php" />
     <Compile Include="lib\Model\dogdetail.php" />

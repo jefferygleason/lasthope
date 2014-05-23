@@ -2,15 +2,24 @@
 class page_dogs extends Page {
     function initMainPage(){    
     
-        $grid=$this->add('Grid');   
+
+        $myform=$this->add('Form');
+        $myform->addField('line', 'selected')->setCaption('');
+        
+       // var_dump($myform->getElement('selected'));
+        $myform->getElement('selected')->js(true)->hide();
+        $grid=$this->add('Grid');
         $grid->setModel('dog');
+        $grid->addSelectable($myform->getElement('selected'));
+   //     $actionForm->addSubmit('Adopt Selected');
         $grid->addPaginator(10);
         $grid->getColumn('dog_name')->makeSortable();
         $grid->getColumn('breedName')->makeSortable();
+        $grid->getColumn('fosterhome_name')->makeSortable();
         $grid->getColumn('intake_date')->makeSortable();
         $grid->getColumn('age')->makeSortable();
         $grid->getColumn('weight')->makeSortable();
-        $grid->addQuickSearch(array('dog_name', 'breedName', 'sex', 'intake_date'));
+        $grid->addQuickSearch(array('dog_name', 'breedName', 'fosterhome_name', 'sex', 'intake_date'));
         $grid->addColumn('button', 'events');
         $grid->addButton('Add New Dog')->js('click')->univ()->frameURL('New Dog', $this->api->url('./add'));
         $grid->addColumn('button', 'details');

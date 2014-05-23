@@ -14,10 +14,9 @@ class Model_volunteer extends Model_Table {
         $this->addField('cell_phone');
         $this->addField('work_phone');
         $this->addField('email1');
-        $this->addField('email2');
         $this->addField('facebook');
         $this->addField('twitter');
-        $this->addField('create_date')->type('date');
+
         
     }
 }

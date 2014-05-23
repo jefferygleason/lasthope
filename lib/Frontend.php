@@ -33,15 +33,16 @@ class Frontend extends ApiFrontend {
                 ->addMenuItem('fosterhome', 'Foster Homes')
                 ->addMenuItem('contacts')
                 ->addMenuItem('userprofile', 'User Profile')
+                ->addMenuItem('fileshare', 'Share Files')
                 ;
         
             $isAdmin = $this->api->auth->model['is_admin'];
             
             if ($isAdmin){
                 $menu
-                    ->addMenuItem('admin')
                     ->addMenuItem("cmsadmin", "Manage CMS")
-                    ->addMenuItem("fileadmin", "Manage Files");
+                    ->addMenuItem('admin', 'Admin')
+                    ;
             }
             
             $menu
