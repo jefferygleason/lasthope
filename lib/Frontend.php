@@ -40,7 +40,8 @@ class Frontend extends ApiFrontend {
             if ($isAdmin){
                 $menu
                     ->addMenuItem('admin')
-                    ->addMenuItem("cmsadmin", "Manage CMS");
+                    ->addMenuItem("cmsadmin", "Manage CMS")
+                    ->addMenuItem("fileadmin", "Manage Files");
             }
             
             $menu

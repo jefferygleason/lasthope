@@ -96,6 +96,7 @@
     <Compile Include="config-distrib.php" />
     <Compile Include="config.php" />
     <Compile Include="index.php" />
+    <Compile Include="lib\Model\document.php" />
     <Compile Include="lib\Model\adoption.php" />
     <Compile Include="lib\Model\referencecheck.php" />
     <Compile Include="lib\Model\reference.php" />
@@ -113,6 +114,7 @@
     <Compile Include="page\cms.php" />
     <Compile Include="page\dogform.php" />
     <Compile Include="page\dogsdisplay.php" />
+    <Compile Include="page\fileshare.php" />
     <Compile Include="page\referencecheck.php" />
     <Compile Include="page\applicants\details.php" />
     <Compile Include="page\dogdetailcodes\values.php" />
@@ -984,6 +986,7 @@
     <Folder Include="doc" />
     <Folder Include="examples" />
     <Folder Include="lib" />
+    <Folder Include="upload\" />
     <Folder Include="page" />
     <Folder Include="page\dogs\events\" />
     <Folder Include="page\fosterhome\" />
